@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+@import "./_mixin";
+
+@font-face {
+	font-family:"NanumSquareOTF_acL";
+	src:url("../../common/fonts/NanumSquareOTF_acL.eot");
+	src:url("../../common/fonts/NanumSquareOTF_acL.eot?#iefix") format("embedded-opentype"),
+		 url("../../common/fonts/NanumSquareOTF__acL.svg#NanumSquareOTF_acB") format("svg"),
+		 url("../../common/fonts/NanumSquareOTF_acL.ttf") format("truetype"),
+		 url("../../common/fonts/NanumSquareOTF_acL.woff") format("woff"),
+		 url("../../common/fonts/NanumSquareOTF_acL.woff2") format("woff2");
+	font-weight:normal;
+	font-style:normal;
+}
+
+@font-face {
+	font-family:"NanumSquareOTF_acR";
+	src:url("../../common/fonts/NanumSquareOTF_acR.eot");
+	src:url("../../common/fonts/NanumSquareOTF_acR.eot?#iefix") format("embedded-opentype"),
+		 url("../../common/fonts/NanumSquareOTF__acR.svg#NanumSquareOTF_acB") format("svg"),
+		 url("../../common/fonts/NanumSquareOTF_acR.ttf") format("truetype"),
+		 url("../../common/fonts/NanumSquareOTF_acR.woff") format("woff"),
+		 url("../../common/fonts/NanumSquareOTF_acR.woff2") format("woff2");
+	font-weight:normal;
+	font-style:normal;
+}
+
+@font-face {
+	font-family:"NanumSquareOTF_acB";
+	src:url("../../common/fonts/NanumSquareOTF_acB.eot");
+	src:url("../../common/fonts/NanumSquareOTF_acB.eot?#iefix") format("embedded-opentype"),
+		 url("../../common/fonts/NanumSquareOTF__acB.svg#NanumSquareOTF_acB") format("svg"),
+		 url("../../common/fonts/NanumSquareOTF_acB.ttf") format("truetype"),
+		 url("../../common/fonts/NanumSquareOTF_acB.woff") format("woff"),
+		 url("../../common/fonts/NanumSquareOTF_acB.woff2") format("woff2");
+	font-weight:normal;
+	font-style:normal;
+}
+
+@font-face {
+	font-family:"NanumSquareOTF_acEB";
+	src:url("../../common/fonts/NanumSquareOTF_acEB.eot");
+	src:url("../../common/fonts/NanumSquareOTF_acEB.eot?#iefix") format("embedded-opentype"),
+		 url("../../common/fonts/NanumSquareOTF__acEB.svg#NanumSquareOTF_acB") format("svg"),
+		 url("../../common/fonts/NanumSquareOTF_acEB.ttf") format("truetype"),
+		 url("../../common/fonts/NanumSquareOTF_acEB.woff") format("woff"),
+		 url("../../common/fonts/NanumSquareOTF_acEB.woff2") format("woff2");
+	font-weight:normal;
+	font-style:normal;
+}
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:100%;
+	font-family:$f-bold;
+	font:inherit;
+	vertical-align:baseline;
+	box-sizing:border-box;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display:block;
+}
+body {
+	line-height:1.2;
+	font-family:$f-bold;
+}
+ol, ul {
+	list-style:none;
+}
+blockquote, q {
+	quotes:none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content:'';
+	content:none;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+a{
+	color:#111;
+	text-decoration:none;
+	outline:none;
+}
+
+
+

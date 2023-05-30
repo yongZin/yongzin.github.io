@@ -1,0 +1,33 @@
+
+/* 폰트 변수 */
+$f-light:"NanumSquareOTF_acL";
+$f-reular:"NanumSquareOTF_acR";
+$f-bold:"NanumSquareOTF_acB";
+$f-ebold:"NanumSquareOTF_acEB";
+/* //폰트 변수 */
+
+/* 미디어쿼리 */
+$pc: 1200px;
+$xl: 1000px;
+$lg: 800px; 
+$sm: 600px;
+$xs: 400px;
+
+@mixin respond-to($media) { 
+    @if $media == pc { 
+        @media only screen and (max-width: $pc) { @content; } 
+    }
+    @else if $media == xl { 
+        @media only screen and (max-width: $xl) { @content; } 
+    }
+    @else if $media == lg { 
+        @media only screen and (max-width: $lg) { @content; } 
+    }
+    @else if $media == sm { 
+        @media only screen and (max-width: $sm) { @content; } 
+    }
+    @else if $media == xs { 
+        @media only screen and (max-width: $xs) { @content; } 
+    }
+}
+/* //미디어쿼리 */

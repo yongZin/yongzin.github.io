@@ -1,0 +1,32 @@
+@import "./_reset";
+@import "./_mixin";
+
+.fr{
+    &-logo{
+        width:150px;
+        height:50px;
+        display:inline-block;
+        vertical-align:middle;
+        font-size:0;
+        background:url(../../common/images/logo.svg) no-repeat center/100%;
+        transition:0.3s;
+    }
+}
+
+@include respond-to(xl) {
+    .fr{
+        &-logo{
+            width:120px;
+            height:40px;
+        }
+    }
+}
+
+@include respond-to(xs) {
+    .fr{
+        &-logo{
+            width:40px;
+            background:url(../../common/images/logo-xs.svg) no-repeat center/100%;
+        }
+    }
+}
