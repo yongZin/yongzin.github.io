@@ -1,4 +1,4 @@
-# Product Upload
+# Freitag Scroll
 
 > 계산식 scroll 이벤트를 활용한 업사이클링 브랜드 프라이탁의 회사소개 리뉴얼
 
