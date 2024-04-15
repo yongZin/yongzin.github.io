@@ -466,7 +466,13 @@
     
     
     window.addEventListener('load', function(){
+        const loadingElement = document.querySelector('.loading');
+        
         document.body.classList.remove('hold');
+
+        if (loadingElement) {
+            loadingElement.parentNode.removeChild(loadingElement);
+        }
         
         setLayout();
 
