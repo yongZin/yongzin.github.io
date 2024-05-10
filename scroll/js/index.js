@@ -471,7 +471,11 @@
         document.body.classList.remove('hold');
 
         if (loadingElement) {
-            loadingElement.parentNode.removeChild(loadingElement);
+            loadingElement.classList.add('on');
+            
+            setTimeout(() => {
+                loadingElement.parentNode.removeChild(loadingElement);
+            }, 1000);
         }
         
         setLayout();
