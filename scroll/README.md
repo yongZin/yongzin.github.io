@@ -4,7 +4,7 @@
 
 <br>
 
-[🖥️ 포트폴리오 보러가기](https://yongzin.github.io/scroll/scroll.html)
+[👀 포트폴리오 보러가기](https://yongzin.github.io/scroll/scroll.html)
 
 <br>
 
