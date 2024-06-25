@@ -2,14 +2,14 @@
 
 > 계산식 scroll 이벤트를 활용한 업사이클링 브랜드 프라이탁의 회사소개 리뉴얼
 
-<a href="https://yongzin.github.io/scroll/scroll.html">
-	<img src="https://img.shields.io/badge/포트폴리오_보러가기►-c98302?style=for-the-badge" />
-</a>
+<br>
 
-<details>
-	<summary>포트폴리오 미리보기</summary>
-	<img src="https://github.com/yongZin/yongZin/blob/main/images/gif/scroll.gif?raw=true" />
-</details>
+[👀 포트폴리오 보러가기](https://yongzin.github.io/scroll/scroll.html)
+
+<br>
+
+> ### 미리 보기
+> ![preview](https://github.com/yongZin/yongZin/blob/main/images/gif/scroll.gif?raw=true)
 
 > ### 주요 기능
 > - canvas 활용
